@@ -40,4 +40,60 @@ img{
 /* main_content */
 .main_content{
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+/* globol_wrapper */
+.globol_wrapper{
+    flex-grow: 1;
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* hero */
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items : center;
+    width: 100%;
+    max-width: 600px;
+}
+.hero_content {
+    max-width: 285px;
+
+}
+.hero_heading {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 2px;
+    /* color: #FFFFFF; */
+}
+.hero_link {
+   display: inline-block;
+   text-decoration: none;
+   background: #1E90FF;
+   color: #fff;
+   text-decoration:none;
+   letter-spacing: 2px;
+}
+.hero_link_iner {
+    display: flex;
+    padding: 12px 24px;
+    text-transform: uppercase;
+}
+.hero_link_iner::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: url();
+}
+.hero_link_text{
+
 }
